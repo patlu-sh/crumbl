@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual env & secrets
+.env
+.envrc
+.venv
+venv/
+env/
+
+# Tests & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+cover/
+
+# Database (SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Tooling
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,28 @@
+# Frontend (not needed for backend image)
+frontend/
+
+# Version control
+.git
+.github
+
+# Python
+backend/__pycache__
+backend/**/__pycache__
+backend/*.pyc
+backend/.pytest_cache
+backend/.mypy_cache
+backend/.venv
+backend/venv
+backend/shortener.db
+
+# Environment
+backend/.env
+backend/.env.*
+
+# Tests
+backend/tests/
+backend/pytest.ini
+
+# Docs
+README.md
+LICENSE
